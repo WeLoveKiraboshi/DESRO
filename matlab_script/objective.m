@@ -1,0 +1,12 @@
+function f=fun(x)
+h = x(5);
+b = x(4);
+r = x(2);
+Lb = x(3);
+R = x(1);
+Ey = 210*1.0e9;  % N/m^2
+d = 7850;   % kg/m^3
+ms = 1000; % weight for an prisomatic actuators
+f = r*b*h*d + 3*Lb*b*h*d + 3*ms;
+%f = pi*(rp^2)*r*d+3*pi*(rj^2)*Lb*d+3*ms;
+%f = R + r + Lb;

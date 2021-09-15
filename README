@@ -1,0 +1,10 @@
+
+# edit by Yuki SAITO\
+# 2020.01.19\
+# how to run our matlab script for optim\
+
+How to run our matlab script\
+
+1.Just run  optimization.m . Main script is written in this file.\
+
+2. If you wanna visualize working space of the manipulator, please run visualize_workspace.m

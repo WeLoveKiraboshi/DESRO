@@ -1,0 +1,11 @@
+function f=fun(x)
+Ey = 2.e11;  % N/m^2
+ro = 7860;   % kg/m^3
+l0 = x(1); %m
+l1 = x(2); %m
+l2 = x(3); %m
+l3 = x(4); %m
+l4 = x(5); %m
+b = x(6); %m
+h = x(7); %m
+f = ro*b*h*(l0+l1+l2+l3+l4);
